@@ -1,0 +1,176 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title PROWEB Ochiq Dars
+        link(rel="stylesheet" href="./css/style.min.css")
+    body
+        section.web-programming.active
+            .web-programming__inner
+                h3.web-programming__inner-suptitle Web-Dasturlash
+                p.web-programming__inner-span Ochiq dars
+                h1.web-programming__inner-title PROWEB
+            .web-programming__long-line
+            .web-programming__blue-bg-circle
+            .web-programming__green-circle
+            .web-programming__blue-circle
+            .web-programming__white-bg-circle
+            .web-programming__purple-half-circle
+                .web-programming__purple-half-circle-inner
+            img.web-programming__pattern(src="./img/pattern.webp" alt="pattern")
+        section.why-need
+            .why-need__inner
+                img.why-need__img(src="./img/why-need-img.webp" alt="")
+                .why-need__title Web dasturlash nima uchun kerak?
+                img.why-need__triangle(src="./img/why-need-triangle.webp" alt="")
+                .why-need__green-circle
+                .why-need__thin-blue-circle
+        section.salary
+            .salary__inner
+                .default-header.salary__header
+                    h3.default-suptitle O'rtacha ish haqi
+                    h1.default-title.salary__title 300$dan 2000$gacha
+                .salary__content
+                    .salary__content-line
+                        span 01.
+                        p.default-text Kelajak kasbi
+                    .salary__content-line
+                        span 02.
+                        p.default-text Mutaxassislar yetishmasligi.
+                    .salary__content-line
+                        span 03.
+                        p.default-text Dasturchilarga bo`lgan talab.
+            img.salary__patern(src="./img/pattern.webp", alt="")
+        section.freelance
+            .freelance__inner
+                .freelance__left
+                    .default-header
+                        h3.default-suptitle Qanday qilib ishlash mumkin?
+                        h1.default-title 01. Freelance
+                .freelance__right
+                    .freelance__right-content
+                        .default-line
+                            span.freelance__right-count 01.
+                            p.default-text Ish vaqti
+                        .default-line
+                            span.freelance__right-count 02.
+                            p.default-text Tanlash imkoniyati
+                        .default-line
+                            span.freelance__right-count 03.
+                            p.default-text Moliyaviy mustaqillik
+                        .default-line
+                            span.freelance__right-count 04.
+                            p.default-text Korporativ standartlar yo’qligi
+                        .default-line
+                            span.freelance__right-count 05.
+                            p.default-text Istagan joyda turib ishlash imkoniyati
+        section.freelance2
+            .freelance2__inner
+                .freelance2__left.office__left
+                    .default-header
+                        h3.default-suptitle Qanday qilib ishlash mumkin?
+                        h1.default-title 02. Office
+                .freelance2__right.office__right
+                    .freelance2__right-content
+                        -var items = {'01.': 'Barqarorlik', '02.': 'Muhit', '03.': 'Ustoz', '04.':'Tajriba', '05.': 'O’sish'}
+                        each num, name in items
+                            .default-line
+                                span.freelance2__right-count=name
+                                p.default-text=num
+        section.web-parts-view
+            .web-parts-view__inner
+                .web-parts-view__content
+                    h1.web-parts-view__frontend Frontend
+                    h1.web-parts-view__backend Backend
+        section.web-parts
+            .web-parts__inner
+                .default-header.web-parts__header
+                    .web-parts__header-left
+                        h1.default-title Backend
+                    .web-parts__header-right
+                        h1.default-title Frontend
+        section.languages
+            .languages__green-circle
+            .languages__purple-circle
+            .languages__blue-long
+            .languages__inner
+                .languages__content
+                    .languages__name
+                        img(src="./img/languages-html.webp", alt="html")
+                        h6 html
+                    .languages__name
+                        img(src="./img/languages-css.webp", alt="css")
+                        h6 css
+                    .languages__name
+                        img(src="./img/languages-js.webp", alt="css")
+                        h6 javascript
+        section.developing
+        section.web-parts-info
+            .web-parts-info__inner
+                span.web-parts-info__item Saytning ustuni
+                span.web-parts-info__item Saytning bezagi
+                span.web-parts-info__item Loyihaning dizayni
+                span.web-parts-info__item HTML va CSS yordamchisi 
+                span.web-parts-info__item Versiyalarni boshqarish sistemasi 
+                span.web-parts-info__item Nomlash metodologiyasi 
+                span.web-parts-info__item HTML voqealarini kuzatish 
+                span.web-parts-info__item HTML, CSS, JS yordamchisi  
+                span.web-parts-info__item Ma’lumotlar bazasi  
+                span.web-parts-info__item Loyihaning miyasi  
+                span.web-parts-info__item Saytning boshqarish sistemasi  
+        section.advantages
+            .advantages__inner
+                .default-header
+                    h1.default-title PROWEB
+                    h3.default-suptitle maktabining ijobiy tomonlari
+                .advantages__content
+                    .advantages__content-item
+                        svg
+                            use(xlink:href="./img/svg/sprite.svg#home")
+                        span Uyga vazifa
+                    .advantages__content-item
+                        svg
+                            use(xlink:href="./img/svg/sprite.svg#video")
+                        span Darslar yozib olinadi
+                    .advantages__content-item
+                        svg
+                            use(xlink:href="./img/svg/sprite.svg#telegram")
+                        span Telegram
+                    .advantages__content-item
+                        svg
+                            use(xlink:href="./img/svg/sprite.svg#coworking")
+                        span Coworking
+                    .advantages__content-item
+                        svg
+                            use(xlink:href="./img/svg/sprite.svg#sertifikat")
+                        span Sertifikat
+        section.target
+            .target__inner
+                img.target__arrow(src="./img/target-bg-arrow.webp", alt="")
+                .target__green-circle
+                .target__white-bg-circle
+                .target__blue-long
+                .target__purple-circle
+                .target__blue-circle
+                .default-header
+                    h1.default-title PROWEB
+                    h3.default-suptitle Maqsadi
+        section.questions
+            .questions__inner
+                .target__green-circle
+                .target__white-bg-circle
+                .questions__black-bg-circle
+                .questions__purple-big-circle
+                .target__purple-circle
+                .questions__black-long
+                .default-header
+                    h1.default-suptitle Zamonaviy kasblar markazi
+                    h3.default-title PROWEB
+                .questions__content
+                    time.questions__timer 10:00
+                    time.questions__timer-sub 00:00:00
+                    .questions__content-text Savollar vaqti
+                        img.questions__img(src="./img/question-icon.webp", alt="")
+    script(src="./js/script.min.js")
